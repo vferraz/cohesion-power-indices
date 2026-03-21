@@ -1,0 +1,13 @@
+party,bloc,seats,ches_lrgen,ches_source,ches_party_id,seat_source
+LFI,NFP,71,1.25,CHES 2019 (lrgen; party: FI),627,"Assemblée nationale, July 2024 results"
+PS,NFP,69,3.00,CHES 2019 (lrgen),602,"Assemblée nationale, July 2024 results"
+Écologistes,NFP,38,2.50,CHES 2019 (lrgen; party: EELV),605,"Assemblée nationale, July 2024 results"
+GDR/PCF,NFP,17,1.13,CHES 2019 (lrgen; party: PCF),601,"Assemblée nationale, July 2024 results"
+Renaissance,Ensemble,92,6.33,CHES 2019 (lrgen; party: LREM),626,"Assemblée nationale, July 2024 results"
+MoDem,Ensemble,36,6.13,CHES 2019 (lrgen),613,"Assemblée nationale, July 2024 results"
+Horizons,Ensemble,34,6.20,Approximation (founded 2021; positioned between MoDem and Renaissance),,"Assemblée nationale, July 2024 results"
+LR,LR,49,7.88,CHES 2019 (lrgen),609,"Assemblée nationale, July 2024 results"
+RN,RN,122,9.75,CHES 2019 (lrgen),610,"Assemblée nationale, July 2024 results"
+UDR/Ciotti,RN,17,8.50,Approximation (split from LR in 2024; rightward of LR),,"Assemblée nationale, July 2024 results"
+LIOT,Other,22,5.00,Approximation (diverse centrist/regional group),,"Assemblée nationale, July 2024 results"
+Non-inscrits,Other,10,5.00,Approximation (unaffiliated; centrist default),,"Assemblée nationale, July 2024 results"

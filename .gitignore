@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Lean 4
+.lake/
+lake-packages/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.synctex.gz
+
+# Generated figures (reproducible from scripts)
+figures/*.pdf
+figures/*.png
+!figures/generate_figures.py
+!figures/france_2024_analysis.ipynb
