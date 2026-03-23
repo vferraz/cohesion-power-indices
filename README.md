@@ -3,6 +3,7 @@
 Replication package for:
 
 > **Cohesion-Sensitive Power Indices: Representation Results for Banzhaf and Shapley Values**
+
 > Thomas Pitz and Vinicius Ferraz (2026)
 
 This repository provides all materials needed to reproduce the formal verification and
@@ -12,6 +13,7 @@ empirical illustrations in the paper.
 
 ```
 cohesion-power-indices/
+├── cohesion_shapley.py         # Core Python module (Shapley + Banzhaf)
 ├── data/                       # Source data with full provenance
 │   ├── CHES2019V3.csv          #   Chapel Hill Expert Survey 2019 (raw)
 │   ├── bundestag_2025.csv      #   Seats + CHES positions (Germany)
@@ -30,10 +32,20 @@ cohesion-power-indices/
 
 ## Quick start
 
+### Use the core module
+
+```python
+from cohesion_shapley import cohesion_shapley, cohesion_banzhaf
+
+phi = cohesion_shapley(players, weights, threshold, kappa_func, b=1.0)
+```
+
+Run `python cohesion_shapley.py` for built-in self-tests (Apex game).
+
 ### Reproduce all figures
 
 ```bash
-cd figures
+cd analysis
 uv sync
 uv run jupyter notebook cohesion_analysis.ipynb
 ```
